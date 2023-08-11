@@ -73,7 +73,7 @@
 					color: white;
 				}
 			}
-			
+
 			a {
 				display: flex;
 				align-items: center;
@@ -94,6 +94,42 @@
 
 		.basicInformations > .workInformations > div {
 			flex-direction: row;
+		}
+	}
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	.main {
+		h1 {
+			span {
+				color: rgb(179, 179, 179);
+			}
+		}
+		img {
+			filter: brightness(0.8);
+		}
+
+		.basicInformations {
+			.workInformations {
+				div {
+					color: rgb(179, 179, 179);
+				}
+			}
+		}
+
+		ul {
+			li {
+				&:hover {
+					background-color: white;
+					a {
+						color: black;
+					}
+				}
+
+				a {
+					color: white;
+				}
+			}
 		}
 	}
 }
