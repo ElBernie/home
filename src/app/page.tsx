@@ -21,14 +21,14 @@ export default function Home() {
 					Bernard <span> ‟Bernie‟ </span> Arroues
 				</h1>
 				<div className={style.workInformations}>
-					<span>
+					<div>
 						<FaSuitcase />
 						Développeur fullstack Javascript/Typescript
-					</span>
-					<span>
+					</div>
+					<div>
 						<FaLocationDot />
 						Quimper / Remote
-					</span>
+					</div>
 				</div>
 			</div>
 
