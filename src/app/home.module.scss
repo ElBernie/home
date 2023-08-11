@@ -66,6 +66,14 @@
 			align-items: center;
 			justify-content: center;
 
+			&:hover {
+				background-color: black;
+				cursor: pointer;
+				a {
+					color: white;
+				}
+			}
+			
 			a {
 				display: flex;
 				align-items: center;
