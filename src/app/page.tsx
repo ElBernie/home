@@ -4,6 +4,7 @@ import {
 	FaLinkedin,
 	FaGithub,
 	FaPaperPlane,
+	FaDownload,
 } from 'react-icons/fa6';
 import Image from 'next/image';
 import style from './home.module.scss';
@@ -47,6 +48,12 @@ export default function Home() {
 				</li>
 				<li>
 					<a href='https://www.x.com/ElBernieCode'>𝕏 X</a>
+				</li>
+				<li>
+					<a href='./Bernard_ARROUES_CV.pdf'>
+						<FaDownload />
+						Mon CV
+					</a>
 				</li>
 				<li>
 					<a href='mailto:arroues.bernard@gmail.com'>
