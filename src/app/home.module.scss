@@ -36,7 +36,7 @@
 			justify-content: center;
 			align-items: center;
 			gap: 0.5rem;
-			span {
+			div {
 				display: flex;
 				flex-direction: column;
 				gap: 0.25rem;
@@ -44,6 +44,7 @@
 				justify-content: center;
 				line-break: normal;
 				color: rgb(79, 79, 79);
+				text-align: center;
 			}
 		}
 	}
@@ -83,7 +84,7 @@
 			flex-direction: row;
 		}
 
-		.basicInformations > .workInformations > span {
+		.basicInformations > .workInformations > div {
 			flex-direction: row;
 		}
 	}
