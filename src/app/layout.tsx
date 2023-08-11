@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
 	title: 'Bernard ARROUES - Développeur fullstack à Quimper',
-	description: 'Développeur fullstack Javascript/Typescript à Quimper,France',
+	description: 'Développeur fullstack Javascript/Typescript à Quimper, France',
 };
 
 export default function RootLayout({
