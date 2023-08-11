@@ -5,7 +5,11 @@
 	align-items: center;
 
 	h1 {
-		display: inline;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		line-break: auto;
 
 		span {
 			display: inline;
@@ -23,17 +27,22 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		gap: 2rem;
 		padding: 1.5rem;
-		gap: 0.5rem;
+
 		.workInformations {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			gap: 0.5rem;
 			span {
 				display: flex;
+				flex-direction: column;
 				gap: 0.25rem;
 				align-items: center;
+				justify-content: center;
+				line-break: normal;
 				color: rgb(79, 79, 79);
 			}
 		}
@@ -64,6 +73,18 @@
 				color: rgb(15, 15, 15);
 				text-decoration: none;
 			}
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.main {
+		h1 {
+			flex-direction: row;
+		}
+
+		.basicInformations > .workInformations > span {
+			flex-direction: row;
 		}
 	}
 }
