@@ -46,15 +46,15 @@ export default function Home() {
 						Github
 					</a>
 				</li>
-				<li>
+				{/* <li>
 					<a href='https://www.x.com/ElBernieCode'>𝕏 X</a>
-				</li>
-				<li>
+				</li> */}
+				{/* <li>
 					<a href='./Bernard_ARROUES_CV.pdf'>
 						<FaDownload />
 						Mon CV
 					</a>
-				</li>
+				</li> */}
 				<li>
 					<a href='mailto:arroues.bernard@gmail.com'>
 						<FaPaperPlane />
